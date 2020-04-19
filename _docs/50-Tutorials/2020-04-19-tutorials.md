@@ -1,0 +1,14 @@
+---
+title: Slides
+category: Presentations
+order: 1
+---
+
+Please contact [me](mailto:who@cndaqiang.ac.cn) to get the slides of the presentasions below.
+
+
+- April 12, 2018, Chao Lian, Fast rt-TDDFT Algorithm with Plane Wave Basis: Possible Picosecond Simulation
+
+- December 12, 2019, Daqiang Chen, A new implementation of rt-TDDFT
+
+- March 16, 2020, Daqiang Chen, Parallel art in TDAP & TDPW

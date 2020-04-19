@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Q-Tools #标题,用于header
+title: TDPW Manual #标题,用于header
 url: "/" #header处url
-baseurl: "/Manual-Theme/" #url常用site.baseurl/
+baseurl:  #url常用site.baseurl/
 google_analytics_key:
 show_full_navigation: true
 
