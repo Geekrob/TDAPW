@@ -78,3 +78,5 @@ types:
   - minor
   - major
   - TAG0
+
+theme: jekyll-theme-cayman
