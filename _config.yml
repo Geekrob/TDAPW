@@ -3,7 +3,7 @@
 
 title: TDPW Manual #标题,用于header
 url: "/" #header处url
-baseurl:  #url常用site.baseurl/
+baseurl: /TDAPW  #url常用site.baseurl/
 google_analytics_key:
 show_full_navigation: true
 
