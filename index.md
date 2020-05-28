@@ -3,7 +3,7 @@ title: Introduction
 ---
 
 
-TDPW(TDAP-QE) is an time dependent ab initio package, which is based on the plane-wave code *[Quantum Espresso](https://www.quantum-espresso.org/)*.
+TDAPW(TDAP-QE/TDPW) is an time dependent ab initio package, which is based on the plane-wave code *[Quantum Espresso](https://www.quantum-espresso.org/)*.
 
 Chao Lian and Sheng Meng wrote the  original version. <br>
 Now, it is mainly maintained by  Daqiang Chen, Chao Lian, and Sheng Meng.
