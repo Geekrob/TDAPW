@@ -36,3 +36,13 @@ Run `jekyll` commands through Bundler to ensure you're using the right versions:
 ~~~bash
 nohup bundle exec jekyll serve -P 3000 > /tmp/outout.log
 ~~~
+
+## Update
+2020-06-07 change url
+```
+./change-url.sh none TDAPW
+```
+next time, you can
+```
+./change-url.sh  TDAPW newurl
+```
