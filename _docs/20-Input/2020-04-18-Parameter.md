@@ -13,8 +13,8 @@ All parameter of TDPW are wrote in NAMELIST: `&CONTROL`.
 |QE/TDPW| Default value  |  Function |
 |------|-------------------------------|--|
 | QE   | calculation      =        "scf" | Set calculation = "md" for TDDFT md simulation  |
-| QE   | ion_dynamics     =     "verlet" | "verlet" for NVT |
-| QE   | nband     =      | DFT: Number of electronic states (bands) to be calculated. <br> TDDFT: Number of adiabatic basis $$N_b$$. |
+| QE   | ion_dynamics     =     "verlet" | "verlet" for NVE |
+| QE   | nbnd     =      | DFT: Number of electronic states (bands) to be calculated. <br> TDDFT: Number of adiabatic basis $$N_b$$. |
 | TDPW | tddft_is_on      =          T | .True. Wavefunctions evolve by TDDFT <br> .False. by DFT, which result is same with QE |
 | TDPW | diagonSteps      =          2 | Diagon (DFT) steps before TD propagation |
 | TDPW | edt              =    1.00000 | $$\Delta t = t_2 -t_1 $$ for the calculation of $$\mathbf{U_k}(t_2,t_1) $$, <br> in Rydberg atomic units (1 a.u.=4.8378 * 10^-17 s )|
