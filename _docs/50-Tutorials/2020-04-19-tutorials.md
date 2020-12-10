@@ -12,3 +12,5 @@ Please contact [me](mailto:who@cndaqiang.ac.cn) to get the slides of the present
 - December 12, 2019, Daqiang Chen, A new implementation of rt-TDDFT
 
 - March 16, 2020, Daqiang Chen, Parallel art in TDAP & TDPW
+
+- June 14, 2020, Daqiang Chen, Comparison of TDAP and TDAPW

@@ -23,5 +23,7 @@ All parameter of TDPW are wrote in NAMELIST: `&CONTROL`.
 | TDPW | mstep            =        500 | $$\Delta t$$ is divided into $$N_t$$ (i.e. mstep) patrs,<br> $$dt =\frac{ \Delta t}{N_t} $$ is electron timestep in TD evolve |
 | TDPW | nwevc            =          0 | Each nwevc steps, punch data to pwscfN.save |
 | TDPW | TDDebug          =          F | .True. print debug information to screen |
-| TDPW | current_K        =          F | .True. Output Current at each band,kpoint|
-
+| TDPW | td_current_K        =          F | .True. Output Current at each band,kpoint, label for old version is `current_k`|
+| TDPW6.6 | use_tdks        =          F | The way to calculate $$\rho(t_2)$$. See [Charge density](/TDAPW/10-Theory/2020-04-18-propagation/) |
+| TDPW6.4 | rho_debug       =          F | The way to calculate $$\rho(t_2)$$. See [Charge density](/TDAPW/10-Theory/2020-04-18-propagation/)|
+| TDPW | td_ht = 0 |The way to build $$H_{\mathbf{k}}(t)$$. <br> td_ht = 0, See Eq 10 in [Propagation in adiabatic basis](/TDAPW/10-Theory/2020-04-18-basis/) <br> td_ht  = 1 : $$H_{\mathbf{k}}(t) = H_{\mathbf{k}}(t_1)$$ <br>  td_ht = 2 : $$H_{\mathbf{k}}(t_2) $$. <br>  When use_tdks=T, it is recommended to set td_ht=2 |
