@@ -33,12 +33,11 @@ All parameter of TDPW are wrote in NAMELIST: `&CONTROL`.
 | TDPW | td_current     =    T | .True. the current calculation at k point|
 | TDPW | use_tdks     =    T | .True. the contribution of the tdks cross term to the charge density(**Tips:**It is also recommended to set td_ht=2 to improve convergence) |
 | TDPW | tefield     =    T ,Gaugefield     =    F | Length Gauge |
-| TDPW | Gaugefield     =    T | Length Gauge |
+| TDPW | Gaugefield     =    T | Velocity Gauge |
 | TDPW | td_outputD     =    T | .True. Dipole calculation |
 | TDPW | td_outputL     =    T | .True. Angular Momentum calculation |
 | TDPW | current_debug    =    T | .True.  Current output when considering SOC calculation |
-| TDPW | &SYSTEM  B_field(i)    =   0.1,
- i  =   1,3| Application of external magnetic field |
+| TDPW | &SYSTEM  B_field(i)    =   0.1,  i     =    1,3| Application of external magnetic field |
 | TDPW | td_outputS=T| .True. Magnetic moment output  for each KS/TDKS wave function at noncolinear cases|
 | TDPW | td_outputF=T| .True. Force output for each atom|
 
