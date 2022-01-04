@@ -28,3 +28,16 @@ All parameter of TDPW are wrote in NAMELIST: `&CONTROL`.
 | TDPW6.4 | rho_debug       =          F | The way to calculate $$\rho(t_2)$$. See [Charge density](/TDAPW/10-Theory/2020-04-18-propagation/)|
 | TDPW | td_ht = 0 |The way to build $$H_{\mathbf{k}}(t)$$. <br> td_ht = 0, See Eq 10 in [Propagation in adiabatic basis](/TDAPW/10-Theory/2020-04-18-basis/) <br> td_ht  = 1 : $$H_{\mathbf{k}}(t) = H_{\mathbf{k}}(t_1)$$ <br>  td_ht = 2 : $$H_{\mathbf{k}}(t_2) $$. <br>  When use_tdks=T, it is recommended to set td_ht=2 |
 | TDPW | cal_pop0        =          T | By default, the projection of the basis vector to the initial moment is not output |
+| TDPW | td_constrained        =          T | Specify the occupation  of  energy level at any k-point from  DFT output |
+| TDPW | td_constrainenwevc     =    N,  punchks/punchtdks         =          T | pwscfN.save/pwscfNtdks.save contains the KS/TDKS wave functions output at every N steps |
+| TDPW | td_current     =    T | .True. the current calculation at k point|
+| TDPW | use_tdks     =    T | .True. the contribution of the tdks cross term to the charge density(**Tips:**It is also recommended to set td_ht=2 to improve convergence) |
+| TDPW | tefield     =    T ,Gaugefield     =    F | Length Gauge |
+| TDPW | Gaugefield     =    T | Length Gauge |
+| TDPW | td_outputD     =    T | .True. Dipole calculation |
+| TDPW | td_outputL     =    T | .True. Angular Momentum calculation |
+| TDPW | current_debug    =    T | .True.  Current output when considering SOC calculation |
+| TDPW | &SYSTEM  B_field(i)    =   0.1, i  =   1,3| Application of external magnetic field |
+| TDPW | td_outputS=T| .True. Magnetic moment output  for each KS/TDKS wave function at noncolinear cases|
+| TDPW | td_outputF=T| .True. Force output for each atom|
+
