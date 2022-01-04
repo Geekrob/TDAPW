@@ -37,7 +37,8 @@ All parameter of TDPW are wrote in NAMELIST: `&CONTROL`.
 | TDPW | td_outputD     =    T | .True. Dipole calculation |
 | TDPW | td_outputL     =    T | .True. Angular Momentum calculation |
 | TDPW | current_debug    =    T | .True.  Current output when considering SOC calculation |
-| TDPW | &SYSTEM  B_field(i)    =   0.1, i  =   1,3| Application of external magnetic field |
+| TDPW | &SYSTEM  B_field(i)    =   0.1,
+ i  =   1,3| Application of external magnetic field |
 | TDPW | td_outputS=T| .True. Magnetic moment output  for each KS/TDKS wave function at noncolinear cases|
 | TDPW | td_outputF=T| .True. Force output for each atom|
 
