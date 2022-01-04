@@ -28,8 +28,3 @@ All parameter of TDPW are wrote in NAMELIST: `&CONTROL`.
 | TDPW6.4 | rho_debug       =          F | The way to calculate $$\rho(t_2)$$. See [Charge density](/TDAPW/10-Theory/2020-04-18-propagation/)|
 | TDPW | td_ht = 0 |The way to build $$H_{\mathbf{k}}(t)$$. <br> td_ht = 0, See Eq 10 in [Propagation in adiabatic basis](/TDAPW/10-Theory/2020-04-18-basis/) <br> td_ht  = 1 : $$H_{\mathbf{k}}(t) = H_{\mathbf{k}}(t_1)$$ <br>  td_ht = 2 : $$H_{\mathbf{k}}(t_2) $$. <br>  When use_tdks=T, it is recommended to set td_ht=2 |
 | TDPW | cal_pop0        =          T | By default, the projection of the basis vector to the initial moment is not output |
-<<<<<<< HEAD
-| TDPW | td_constrained        =          T | Specify the occupation of energy level at any k-point |
-
-=======
->>>>>>> 4e46a3a485ab1514074b164f7093e321343833a1
