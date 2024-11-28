@@ -29,7 +29,7 @@ All parameter of TDPW are wrote in NAMELIST: `&CONTROL`.
 | TDPW | td_ht = 0 |The way to build $$H_{\mathbf{k}}(t)$$. <br> td_ht = 0, See Eq 10 in [Propagation in adiabatic basis](/TDAPW/10-Theory/2020-04-18-basis/) <br> td_ht  = 1 : $$H_{\mathbf{k}}(t) = H_{\mathbf{k}}(t_1)$$ <br>  td_ht = 2 : $$H_{\mathbf{k}}(t_2) $$. <br>  When use_tdks=T, it is recommended to set td_ht=2 |
 | TDPW | cal_pop0        =          T | By default, the projection of the basis vector to the initial moment is not output |
 | TDPW | td_constrained        =          T |Specify the occupancies of each KS orbitals during the DFT simulation, instead of using the default Fermi-Dirac distribution(Read from pwscf.td_constrained.dat) |
-| TDPW | enwevc     =    N,  punchks/punchtdks         =          T | pwscfN.save/pwscfNtdks.save contains the KS/TDKS wave functions output at every N steps |
+| TDPW | nwevc     =    N,  punchks/punchtdks         =          T | pwscfN.save/pwscfNtdks.save contains the KS/TDKS wave functions output at every N steps |
 | TDPW | td_current     =    T | .True. the current calculation at k point|
 | TDPW | use_tdks     =    T | .True. the contribution of the tdks cross term to the charge density(**Tips:**It is also recommended to set td_ht=2 to improve convergence) |
 | TDPW | tefield     =    T ,Gaugefield     =    F | Length Gauge |
